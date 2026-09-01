@@ -23,6 +23,9 @@ env:
 jobs:
   build:
     name: Build Pages artifact
+    # Mirrors the Cloudflare workflow's opt-in guard: this repository deploys to
+    # Cloudflare Pages, so a push must not also trigger a GitHub Pages run.
+    if: github.event_name == 'workflow_dispatch' || vars.GITHUB_PAGES_ENABLED == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Check out source
