@@ -8,10 +8,7 @@ book_kind: book
 sidebar_root_for: self
 sidebar_root_link_self: true
 outputs: [HTML, print, markdown]
-menus:
-  main:
-    identifier: dipani
-    weight: 40
+weight: 10
 cascade:
   type: book
   footer_style: slim
