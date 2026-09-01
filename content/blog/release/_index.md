@@ -1,6 +1,6 @@
 ---
-title: Releases
-description: Version announcements and concise upgrade notes.
+title: 发布
+description: 版本公告与简洁的升级说明。
 weight: 30
 icon: fa-solid fa-tags
 blog_index: table

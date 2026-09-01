@@ -1,4 +1,4 @@
 ---
 title: Bhagavato Docs
-description: Documentation, updates, and a practical guide for your project.
+description: 你的项目文档、动态与实用指南。
 ---

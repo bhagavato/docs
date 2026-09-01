@@ -1,18 +1,18 @@
 ---
-title: A small content model that can grow
+title: 一套可以自然生长的精简内容模型
 date: 2026-01-10
-description: Why this starter separates updates, reference material, and tutorials.
-tags: [design, information-architecture]
+description: 为什么这个模板要分开动态、参考资料与教程。
+tags: [设计, 信息架构]
 ---
 
-This starter gives each kind of writing one obvious home. The separation keeps navigation predictable without locking the project into a large taxonomy.
+这个模板为每种写作提供一个明显的归宿。这样的分工既让导航可预测，也不会过早锁死项目的分类体系。
 
-## Three reading modes {#three-modes}
+## 三种阅读方式 {#three-modes}
 
-- Blog posts explain change over time.
-- Docs answer focused questions.
-- The Book teaches an ordered workflow.
+- 博客说明项目如何随时间变化。
+- 文档回答聚焦的问题。
+- 书籍按顺序教授完整工作流。
 
-## Add structure only when needed {#grow-when-needed}
+## 只在需要时增加结构 {#grow-when-needed}
 
-Start with the supplied sections. Add a new branch only when readers need a distinct route through the material.
+先使用现有栏目。只有当读者确实需要另一条内容路径时，再增加新的分支。

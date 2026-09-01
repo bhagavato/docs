@@ -1,6 +1,6 @@
 ---
-title: Get Started
-description: Check the prerequisites and complete a first installation.
+title: 快速上手
+description: 检查前置条件并完成第一次安装。
 weight: 20
 icon: fa-solid fa-rocket
 menus:
@@ -12,4 +12,4 @@ menus:
       icon: fa-solid fa-rocket
 ---
 
-Move from a clean machine to a working local result.
+从一台干净的机器开始，得到一个可以工作的本地结果。

@@ -1,18 +1,18 @@
 ---
-title: Preview the Site
-description: Clone the repository and open a local home page in three commands.
+title: 预览站点
+description: 用三条命令克隆仓库并打开本地首页。
 book_kind: chapter
 book_number: 1
 weight: 10
 ---
 
-OINK Starter is a Hugo Module site. Git downloads the source, Go resolves the pinned theme, and Hugo builds everything.
+OINK Starter 是一个 Hugo Module 站点。Git 下载源码，Go 解析锁定版本的主题，Hugo 负责完成全部构建。
 
-## Prerequisites {#prerequisites}
+## 前置条件 {#prerequisites}
 
-Install Git, Go 1.27 or newer, and Hugo Extended 0.165.0 or newer. The word `extended` must appear in `hugo version`.
+安装 Git、Go 1.27 或更新版本，以及 Hugo Extended 0.165.0 或更新版本。`hugo version` 输出中必须包含 `extended`。
 
-## Three commands {#three-commands}
+## 三条命令 {#three-commands}
 
 ```bash
 git clone https://github.com/pgsty/oink-starter.git
@@ -20,8 +20,8 @@ cd oink-starter
 hugo server
 ```
 
-Open <http://localhost:1313/>. Chinese is under `/zh/`; French is under `/fr/`.
+打开 <http://localhost:1313/>。中文位于 `/zh/`，法语位于 `/fr/`。
 
-## First proof {#first-proof}
+## 第一个证据 {#first-proof}
 
-Change one sentence in `data/home/en.yaml` and confirm that the browser reloads. You now have a working editing loop.
+修改 `data/home/en.yaml` 中的一句话，并确认浏览器自动刷新。现在你已经有了一条可以工作的编辑循环。

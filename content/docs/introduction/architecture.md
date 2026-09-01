@@ -1,19 +1,19 @@
 ---
-title: Architecture
-description: Give readers a stable mental model of the project.
+title: 架构
+description: 为读者提供一个稳定的项目心智模型。
 weight: 20
 ---
 
-Document the few components a contributor must understand before making a change.
+记录贡献者在修改代码之前必须理解的少数组件。
 
-## System map {#system-map}
+## 系统地图 {#system-map}
 
-| Part | Responsibility |
+| 部分 | 职责 |
 | --- | --- |
-| Interface | Accepts user input and presents results |
-| Core | Applies the project’s rules |
-| Adapters | Connect external systems |
+| 接口 | 接收用户输入并呈现结果 |
+| 核心 | 执行项目规则 |
+| 适配器 | 连接外部系统 |
 
-## Boundaries {#boundaries}
+## 边界 {#boundaries}
 
-Name what the project deliberately does not own. Clear boundaries prevent documentation from promising more than the software provides.
+明确项目刻意不负责什么。清晰的边界可以避免文档承诺软件并未提供的能力。

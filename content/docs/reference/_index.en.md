@@ -1,6 +1,6 @@
 ---
-title: 参考
-description: 不必重读教程，直接查询配置与命令。
+title: Reference
+description: Look up configuration and commands without reading a tutorial.
 weight: 40
 icon: fa-solid fa-book-open
 menus:
@@ -12,4 +12,4 @@ menus:
       icon: fa-solid fa-book-open
 ---
 
-当你已经知道自己要查什么时，请使用这一栏目。
+Use this section when you already know what you need to find.

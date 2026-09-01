@@ -1,18 +1,18 @@
 ---
-title: Project Overview
-description: State what the project does, who it serves, and why it exists.
+title: 项目概览
+description: 说明项目做什么、服务谁，以及为什么存在。
 weight: 10
 ---
 
-Replace this page with the shortest useful explanation of your project.
+请用对你的项目最短而有用的说明替换这一页。
 
-## The problem {#problem}
+## 要解决的问题 {#problem}
 
-Describe the problem in the reader’s language. Avoid implementation details until the reader understands why the project matters.
+使用读者熟悉的语言描述问题。在读者理解项目价值之前，先不要陷入实现细节。
 
-## The outcome {#outcome}
+## 最终结果 {#outcome}
 
-Explain what a successful user can do after adopting the project.
+说明用户采用项目之后，能够成功完成什么。
 
 > [!TIP]
-> A strong overview helps readers decide whether to continue in less than two minutes.
+> 一份好的概览，应该让读者在两分钟内决定是否继续了解。

@@ -1,6 +1,6 @@
 ---
-title: 设计
-description: 塑造项目的架构记录与设计决策。
+title: Design
+description: Architecture notes and decisions that shape the project.
 weight: 20
 icon: fa-solid fa-compass-drafting
 menus:

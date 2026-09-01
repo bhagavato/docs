@@ -1,12 +1,12 @@
 ---
-title: Installation
-description: Take a new user from source code to a working result.
+title: 安装
+description: 帮助新用户从源码走到可工作的结果。
 weight: 20
 ---
 
-Show the shortest supported installation path first.
+首先给出最短且受支持的安装路径。
 
-## Install {#install}
+## 安装 {#install}
 
 ```bash
 git clone https://github.com/OWNER/PROJECT.git
@@ -14,9 +14,9 @@ cd PROJECT
 ./project start
 ```
 
-## Confirm the result {#confirm}
+## 确认结果 {#confirm}
 
-Tell readers exactly what success looks like: a URL to open, a message to see, or a command whose exit status is zero.
+准确告诉读者成功是什么样子：要打开哪个网址、会看到什么消息，或者哪条命令应当返回零。
 
 > [!IMPORTANT]
-> Replace every uppercase placeholder before publishing your project documentation.
+> 发布项目文档前，请替换所有大写占位符。

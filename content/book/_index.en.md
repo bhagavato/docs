@@ -1,7 +1,7 @@
 ---
-title: 使用 OINK Starter
-linkTitle: 书籍
-description: 一份从克隆到发布的简短连续指南。
+title: Using OINK Starter
+linkTitle: Book
+description: A short, sequential guide from clone to publication.
 type: book
 icon: fa-solid fa-book-open
 book_kind: book
@@ -18,8 +18,8 @@ cascade:
   sidebar_headings: 3
 ---
 
-这本小书介绍模板本身。请先从头到尾阅读一次，再用你的项目真正需要的长篇指南替换它。
+This short book explains the starter itself. Read it once from beginning to end, then replace it with the long-form guide your project needs.
 
-## 目录 {#contents}
+## Contents {#contents}
 
 {{< book-toc depth=2 >}}

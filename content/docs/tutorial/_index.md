@@ -1,6 +1,6 @@
 ---
-title: Tutorial
-description: Learn the project by making a small, complete change.
+title: 教程
+description: 通过完成一次小而完整的修改来学习项目。
 weight: 30
 icon: fa-solid fa-graduation-cap
 menus:
@@ -12,4 +12,4 @@ menus:
       icon: fa-solid fa-graduation-cap
 ---
 
-Follow an end-to-end task instead of reading isolated facts.
+跟随一个端到端任务，而不是只阅读彼此孤立的知识点。

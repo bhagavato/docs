@@ -1,22 +1,22 @@
 ---
-title: Make Your First Change
-description: Complete one small change and verify it locally.
+title: 完成第一次修改
+description: 完成一次小修改并在本地验证。
 weight: 10
 ---
 
-This sample tutorial models a complete task: prepare, change, verify, and review.
+这篇示例教程展示一项完整任务：准备、修改、验证与复查。
 
-## Start from a known state {#known-state}
+## 从已知状态开始 {#known-state}
 
 ```bash
 git status --short
 git switch -c docs/first-change
 ```
 
-## Change one thing {#change}
+## 只修改一件事 {#change}
 
-Edit a visible string or a small configuration value. Keep the first task narrow enough that its result is obvious.
+修改一个可见字符串或一个小配置值。第一次任务应足够聚焦，让结果一目了然。
 
-## Verify {#verify}
+## 验证 {#verify}
 
-Run the project’s smallest relevant check, then open the changed surface and inspect it yourself.
+运行项目最小而相关的检查，然后打开修改过的界面亲自确认。

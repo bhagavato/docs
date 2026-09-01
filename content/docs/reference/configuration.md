@@ -1,18 +1,18 @@
 ---
-title: Configuration
-description: Record supported keys, defaults, and examples in one place.
+title: 配置
+description: 在一个地方记录支持的配置项、默认值与示例。
 weight: 10
 ---
 
-Replace this small table with the public configuration surface of your project.
+请用项目真实的公开配置面替换这张小表。
 
-| Key | Type | Default | Meaning |
+| 配置项 | 类型 | 默认值 | 含义 |
 | --- | --- | --- | --- |
-| `listen` | string | `127.0.0.1:8080` | Address used by the local server |
-| `log_level` | string | `info` | Minimum emitted log level |
-| `read_only` | boolean | `false` | Disable operations that change state |
+| `listen` | 字符串 | `127.0.0.1:8080` | 本地服务器监听地址 |
+| `log_level` | 字符串 | `info` | 输出日志的最低级别 |
+| `read_only` | 布尔值 | `false` | 禁用会改变状态的操作 |
 
-## Example {#example}
+## 示例 {#example}
 
 ```yaml
 listen: 0.0.0.0:8080
@@ -20,4 +20,4 @@ log_level: debug
 read_only: true
 ```
 
-Document validation and precedence beside the keys, not in a separate hidden guide.
+请在配置项旁边说明校验与优先级，不要把它们藏在另一份指南里。

@@ -1,6 +1,6 @@
 ---
-title: 简介
-description: 了解项目以及它背后的核心思路。
+title: Introduction
+description: Understand the project and the ideas behind it.
 weight: 10
 icon: fa-solid fa-circle-info
 menus:
@@ -12,4 +12,4 @@ menus:
       icon: fa-solid fa-circle-info
 ---
 
-第一次接触项目时，请从这里开始。
+Start here when the project is new to you.

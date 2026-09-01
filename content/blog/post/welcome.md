@@ -1,16 +1,16 @@
 ---
-title: Welcome to the project blog
+title: 欢迎来到项目博客
 date: 2026-01-15
-description: Replace this sample with the story behind your project.
-tags: [community, getting-started]
+description: 请用你的项目故事替换这篇示例文章。
+tags: [社区, 快速上手]
 ---
 
-Use the Post section for news, explanations, and stories that do not belong in the reference documentation.
+Post 栏目适合放置新闻、解读，以及不属于参考文档的项目故事。
 
-## What to publish here {#what-to-publish}
+## 这里适合发布什么 {#what-to-publish}
 
-Write for readers who want context: why the project exists, what the team learned, and what comes next.
+为希望了解背景的读者写作：项目为什么存在、团队学到了什么、接下来要做什么。
 
-## Replace this page {#replace-this-page}
+## 替换这篇页面 {#replace-this-page}
 
-Keep the front matter, change the title and date, then write your first real post below it.
+保留 front matter，修改标题与日期，然后在下面写下第一篇正式文章。
