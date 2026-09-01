@@ -1,5 +1,7 @@
 ---
 title: 三十七道品
+# 书根的 linkTitle 也是「三十七道品」，侧栏与面包屑需要区分这一层。
+linkTitle: 总说
 description: 七组道品的总说：它们何以称为道品，以及彼此的关系。
 book_kind: chapter
 book_number: '2'

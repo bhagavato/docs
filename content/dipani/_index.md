@@ -1,6 +1,6 @@
 ---
 title: 三十七道品导引手册
-linkTitle: 道品手册
+linkTitle: 三十七道品
 description: 缅甸雷迪尊者《Bodhipakkhiya Dīpanī》中译本，逐章讲述四念住、四正勤、四神足、五根、五力、七觉支与八正道。
 type: book
 icon: fa-solid fa-dharmachakra
