@@ -4,3 +4,7 @@
 /.hugo_build.lock
 .DS_Store
 /.wrangler/
+
+# 僅供本機使用的材料：草稿、閱讀副本、未決定是否納入本站的內容。
+# 此處的檔案不進入版本庫，因此也不會被部署。
+/content/**/local/
