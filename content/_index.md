@@ -1,4 +1,4 @@
 ---
-title: Project Name
+title: Bhagavato Docs
 description: Documentation, updates, and a practical guide for your project.
 ---
