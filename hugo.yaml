@@ -1,9 +1,12 @@
-# OINK Starter — the only site configuration file.
-# Change the two marked values first; everything else builds as-is.
+# Bhagavato Docs — the only site configuration file.
+# Built on the OINK theme; see https://oink.pgsty.com/docs/customize/config/
 
-title: &siteTitle Project Name # CHANGE ME: one shared title for every language
-baseURL: https://example.org/ # CHANGE ME: canonical production URL
+title: &siteTitle Bhagavato Docs
+baseURL: https://bhagavato-docs.pages.dev/
 defaultContentLanguage: en
+# English + Simplified Chinese. French stays declared so Hugo still recognizes
+# .fr.md as a disabled translation rather than as an unknown page.
+disableLanguages: [fr]
 enableGitInfo: true
 enableRobotsTXT: true
 enableEmoji: true
@@ -71,9 +74,8 @@ params:
     #   enable: true
     #   reasons: true
 
-  # Optional repository links. Uncomment after creating your own repository.
-  # github_repo: https://github.com/OWNER/REPOSITORY
-  # github_branch: main
+  github_repo: https://github.com/bhagavato/docs
+  github_branch: main
 
   # Optional brand assets. The starter already supplies a neutral logo.
   # logo: icons/logo.svg

@@ -1,4 +1,4 @@
-module github.com/pgsty/oink-starter
+module github.com/bhagavato/docs
 
 go 1.27.0
 
