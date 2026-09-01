@@ -3,7 +3,7 @@
 Documentation site built on the [OINK](https://oink.pgsty.com) Hugo theme,
 created from [`pgsty/oink-starter`](https://github.com/pgsty/oink-starter).
 
-- **Production:** <https://bhagavato-docs.pages.dev/>
+- **Production:** <https://docs.arahato.com/>
 - **Languages:** Simplified Chinese (default, served at `/`) and English (at `/en/`)
 - **Theme:** pinned in `go.mod` as a Hugo Module
 
@@ -35,10 +35,16 @@ Cloudflare Pages project `bhagavato-docs` (Direct Upload).
 | `CLOUDFLARE_ACCOUNT_ID` | secret | Cloudflare account id |
 | `CLOUDFLARE_PROJECT_NAME` | variable | `bhagavato-docs` |
 | `CLOUDFLARE_PAGES_ENABLED` | variable | `true` |
+| `CLOUDFLARE_SITE_URL` | variable | `https://docs.arahato.com/` |
 
 The Cloudflare project name is deliberately not the repository name: the
 `pages.dev` subdomain is globally unique, so `docs.pages.dev` was unavailable.
 `CLOUDFLARE_PROJECT_NAME` exists to decouple the two.
+
+`CLOUDFLARE_SITE_URL` overrides the default `https://<project>.pages.dev/` that
+the workflow would otherwise derive, and must stay equal to `baseURL` in
+`hugo.yaml`. The project still answers on `bhagavato-docs.pages.dev`, but every
+absolute URL the build emits points at the custom domain.
 
 `.github/workflows/github-pages.yaml` is kept as a working alternative but is
 guarded by `GITHUB_PAGES_ENABLED`, so it never runs alongside the Cloudflare

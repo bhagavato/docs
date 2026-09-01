@@ -2,7 +2,7 @@
 # Built on the OINK theme; see https://oink.pgsty.com/docs/customize/config/
 
 title: &siteTitle Bhagavato Docs
-baseURL: https://bhagavato-docs.pages.dev/
+baseURL: https://docs.arahato.com/
 defaultContentLanguage: zh
 # English + Simplified Chinese. French stays declared so Hugo still recognizes
 # .fr.md as a disabled translation rather than as an unknown page.
